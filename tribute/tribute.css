@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+
+body {
+  margin-top: 60px;
+  background-color: #a50044;
+  font-family: "Inter", sans-serif;
+}
+
+h2 {
+  padding: 0;
+}
+
+#career {
+  text-align: center;
+}
+
+li {
+  text-align: left;
+}
+
+p {
+  text-align: left;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  border: 8px solid whitesmoke;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+.tribute-info {
+  margin: 10px 30px;
+  padding: 20px;
+  background: white;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 5px solid rgb(34, 31, 31);
+  border-radius: 20px;
+  font-size: 20px;
+  color: rgb(34, 31, 31);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#img-caption {
+  text-align: center;
+  font-style: italic;
+  color: aliceblue;
+}
+
+.title {
+  display: inline-flexbox;
+  text-align: center;
+  padding: 10px;
+}
+
+#title {
+  color: blue;
+  font-size: 2.5rem;
+  -webkit-text-stroke: 2px #f8f8f8;
+  font-style: oblique;
+  display: flexbox;
+  text-align: center;
+}
+
+.title {
+  color: white;
+}
+
+h3 {
+  text-align: center;
+  padding-top: 20px;
+  font-style: italic;
+}
+
+.blockquote--text {
+  font-style: italic;
+  font-size: 1.4em;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.blockquote--border {
+  border-left-width: 10px;
+}
+
+.blockquote--text--credit {
+  font-weight: bold;
+  font-style: normal;
+  text-align: right;
+}
+
+.blockquote--text--credit::before {
+  content: "\2014";
+}
+
+.blockquote--quote::before {
+  content: "\201c";
+  font-size: 100px;
+  color: rgb(34, 31, 31);
+  display: block;
+  margin-top: -20px;
+  margin-bottom: -40px;
+}
+
+.blockquote {
+  max-width: 100%;
+  margin: 10px 30px;
+  padding: 25px;
+  background: white;
+  border: 5px solid rgb(34, 31, 31);
+  color: rgb(34, 31, 31);
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.extra--info {
+  background: whitesmoke;
+  max-width: 100%;
+  margin: 10px 30px;
+  border: 5px solid rgb(34, 31, 31);
+  border-radius: 10px;
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: -100px;
+}
+
+.owner {
+  max-width: 100%;
+  margin: 10px 30px;
+  font-size: 20px;
+  display: block;
+  color: #f8f8f8;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: -100px;
+}
+
+a:hover {
+  color: rgb(34, 31, 31);
+}
+
+::selection {
+  color: whitez;
+  background: #a50044;
+}

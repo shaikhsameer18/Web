@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey Form</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="survey/survey.css" />
+    <link rel="stylesheet" href="survey/surveyresponsive.css" />
+    <link rel="icon" type="image/x-icon" href="survey/s1.ico">
+  </head>
+  <body>
+    <header class="header">
+      <br />
+      <h1 id="title" class="sam">LAMBORGHINI Model Purchase</h1>
+      <p id="description" class="sam">
+        Fill out the details to confirm your <strong> Lamborghini</strong> order
+      </p>
+      <br />
+    </header>
+    <main>
+      <form id="survey-form" action="">
+        <div>
+          <label for="name" id="name-label" class="name"
+            ><b> Please Enter Your Name : </b></label
+          >
+          <input id="name" type="text" placeholder="Enter your name" required />
+          <br />
+          <label for="email" id="email-label" class="email"
+            ><b>Please Enter Your Email ID: :</b>
+          </label>
+          <input id="email" type="email" placeholder="xyz@gmail.com" required />
+          <br />
+          <label for="age" id="number-label" class="age"
+            ><b> Please Enter Your Age : </b></label
+          >
+          <input
+            id="number"
+            type="number"
+            name="number"
+            min="18"
+            max="100"
+            placeholder="18"
+            required
+          />
+          <br />
+          <label for="dropdown">Select Model</label>
+          <select id="dropdown" class="form-inputs">
+            <option value="Lamborghini_Urus">Lamborghini Urus</option>
+            <option value="Lamborghini_Terzo">Lamborghini Terzo</option>
+            <option value="Lamborghini_Santorini">Lamborghini Santorini</option>
+            <option value="Lamborghini_Veneno_Roadster">
+              Lamborghini Veneno Roadster
+            </option>
+          </select>
+          <br />
+          <hr />
+          <label for="model-color" id="Model-Color"><b>Model Color: </b></label>
+          <br />
+          <label class="rad" for="Black"
+            ><input
+              id="Black"
+              type="radio"
+              name="color"
+              value="Black"
+              class="radio"
+            />Black</label
+          >
+          &nbsp;
+          <label class="rad" for="Cean"
+            ><input
+              id="Cean"
+              type="radio"
+              name="color"
+              value="Cean"
+              class="radio"
+            />Cean</label
+          >
+          &nbsp;
+          <label class="rad" for="White" id="model-color3"
+            ><input
+              id="White"
+              type="radio"
+              name="color"
+              value="White"
+              class="radio"
+            />White</label
+          >
+          &nbsp;
+          <br />
+          <hr />
+          <label for="features"><b>Want Extra Features: </b></label>
+          <br />
+          <label class="chk" for="Titanium-Exhaust"
+            ><input
+              type="checkbox"
+              class="checkbox"
+              name="features"
+              value="Titanium-Exhaust"
+            />Titanium-Exhaust</label
+          >
+          <br />
+          <label class="chk" for="Nitro-Booster"
+            ><input
+              type="checkbox"
+              class="checkbox"
+              name="features"
+              value="Nitro-Booster"
+            />Nitro-Booster</label
+          >
+          <br />
+          <label class="chk" for="Extra-Safety"
+            ><input
+              type="checkbox"
+              class="checkbox"
+              name="features"
+              value="Extra-Safety"
+            />Extra-Safety</label
+          >
+          <br />
+          <hr />
+          <label for="textarea"><b> Any other comments:</b> </label>
+          <br />
+          <textarea
+            id="textarea"
+            name="intructions"
+            rows="5"
+            cols="40"
+            placeholder="Enter your comment here"
+          >
+          </textarea>
+          <br />
+          <button
+            value="submit"
+            id="submit"
+            type="submit"
+            onclick="myFunction()"
+          >
+            Submit
+          </button>
+        </div>
+      </form>
+    </main>
+    <footer class="owner">
+      © Written And Coded By
+      <a href="https://www.linkedin.com/in/sameerahmed08/" target="_blank">Sameer Ahmed</a
+      >
+    </footer>
+    <script src="survey/surveyscript.js"></script>
+  </body>
+</html>

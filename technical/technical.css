@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+
+html,
+body,
+head {
+  background: linear-gradient(
+    120deg,
+    white,
+    rgb(171, 171, 250),
+    white,
+    rgb(171, 171, 250)
+  );
+  color: black;
+  max-width: 100%;
+  min-width: 290px;
+  line-height: 1.5;
+}
+
+nav {
+  position: fixed;
+  max-width: 100%;
+  width: 300px;
+  background: linear-gradient(
+    120deg,
+    white,
+    rgb(171, 171, 250),
+    white,
+    rgb(171, 171, 250)
+  );
+  border-right: 2px dashed black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar {
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  position: fixed;
+  width: 280px;
+}
+
+main {
+  padding: 20px;
+  max-width: 100%;
+  margin-left: 280px;
+}
+
+nav header {
+  position: fixed;
+  max-width: 100%;
+  top: 0;
+  left: 0;
+  width: 250px;
+  display: block;
+  margin-left: 12px;
+  text-align: center;
+  margin-top: 150px;
+  background: #101820ff;
+  color: #f2aa4cff;
+}
+
+nav ul {
+  list-style-type: none;
+  margin-left: 20px;
+  max-width: 20vw;
+  margin-top: 190px;
+  position: fixed;
+  top: 0;
+  left: -3px;
+  text-decoration: none;
+  padding: 10px 10px;
+  font-size: 1rem;
+  color: black;
+  height: 88%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+nav a {
+  color: black;
+}
+
+nav a:hover {
+  color: blue;
+}
+
+a:hover {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+::selection {
+  color: white;
+  background: black;
+}
+
+nav li {
+  list-style: none;
+  margin-left: -10px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 0.9em;
+  color: black;
+  padding: 6px;
+  position: relative;
+  width: 100%;
+}
+
+header {
+  text-align: center;
+  font-weight: bold;
+  border-radius: 20px;
+  font-size: 1.8em;
+  width: 100%;
+  background-color: #101820ff;
+  color: #f2aa4cff;
+  margin: 10px;
+}
+
+p {
+  margin-left: 10px;
+}
+
+img {
+  border-radius: 20px;
+  width: 50%;
+}
+
+img:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+code {
+  display: block;
+  text-align: left;
+  white-space: pre;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 2;
+  background-color: black;
+  color: white;
+  margin-right: 50px;
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+#steps {
+  margin: 10px;
+}
+
+.P1,
+.P2,
+.P3,
+.P4 {
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.caps {
+  text-align: center;
+  font-style: italic;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+#Python {
+  background-color: white;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  display: block;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+ol {
+  padding-left: 50px;
+  padding-top: -10px;
+  padding-bottom: 10px;
+}
+
+ul {
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+#Introduction,
+#advantages,
+#string,
+#arrays,
+#operators,
+#functions,
+#reference {
+  background-color: white;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  display: block;
+  max-width: 100%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#reference {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: -10px;
+}
+
+footer {
+  max-width: 100%;
+  font-size: 20px;
+  font-style: italic;
+  margin-top: -30px;
+  margin-left: 280px;
+  display: block;
+  color: black;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  padding-left: -100px;
+}

@@ -1,0 +1,66 @@
+@media only screen and (max-width: 600px) {
+  #navbar ul {
+    border: 1px solid;
+    height: 150px;
+    margin-top: 55px;
+    max-width: 98vw;
+    margin-left: 6px;
+    margin-bottom: -10px;
+    text-align: center;
+    position: fixed;
+  }
+
+  nav header {
+    margin-top: 10px;
+    margin-bottom: -10px;
+    position: fixed;
+  }
+
+  ::selection {
+    color: white;
+    background: black;
+  }
+
+  #navbar {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 210px;
+    border: none;
+    z-index: 1;
+    border-bottom: 2px solid;
+  }
+
+  .P1,
+  .P2,
+  .P3,
+  .P4 {
+    width: 90%;
+  }
+
+  #main-doc {
+    position: relative;
+    margin-left: 10px;
+    margin-top: 200px;
+    margin-right: 10px;
+    padding-right: -10px;
+  }
+
+  code {
+    margin-left: 0px;
+    width: 100%;
+    padding: 10px -9px;
+    max-width: 88vw;
+    overflow: scroll;
+    min-width: 233px;
+  }
+
+  footer {
+    display: inline;
+    top: -14px;
+    position: relative;
+  }
+}

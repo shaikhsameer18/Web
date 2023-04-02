@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.header {
+  color: white;
+}
+
+body {
+  background: linear-gradient(to right, #04619f, #000000);
+  text-align: center;
+  line-height: 1.4;
+  max-width: 100%;
+  width: 500px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -40px;
+}
+
+form {
+  background-color: #fff;
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 50px 50px;
+  box-shadow: 2px 5px 10px black;
+  border-radius: 2rem;
+}
+
+.name,
+.age,
+.email {
+  text-align: left;
+  width: 90%;
+  padding: 0.25rem 0.75rem;
+  background-color: #fff;
+  display: inline-block;
+}
+
+.checkbox {
+  display: inline-block;
+  height: auto;
+  width: auto;
+  cursor: pointer;
+}
+
+.owner {
+  max-width: 100%;
+  margin: 10px 30px;
+  font-size: 20px;
+  display: block;
+  color: black;
+  text-align: center;
+  box-sizing: border-box;
+  padding-bottom: 20px;
+}
+
+hr {
+  color: #04619f;
+}
+
+select {
+  border: 2px solid #777;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.5rem;
+  height: 2rem;
+  display: inline-block;
+  margin: 10px;
+  width: 90%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+input {
+  border: 1px solid #777;
+  padding: 10px 10px;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 8px;
+  width: 90%;
+}
+
+.radio {
+  display: inline-block;
+  width: auto;
+  height: auto;
+}
+.rad {
+  cursor: pointer;
+}
+
+textarea {
+  border: 2px solid #777;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 5px;
+  display: block;
+  width: 95%;
+  height: 100px;
+}
+
+.button {
+  background-color: #fbeec1;
+  border-radius: 2px;
+  font-size: 21px;
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0.75rem;
+  cursor: pointer;
+}
+
+#submit {
+  padding: 10px 50px;
+  border-radius: 10px;
+}
+
+#submit:hover {
+  background-color: black;
+  color: rgb(206, 197, 197);
+  cursor: pointer;
+}
+
+a:hover {
+  color: white;
+}
